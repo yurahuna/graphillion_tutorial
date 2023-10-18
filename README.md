@@ -1,6 +1,6 @@
 # graphillion_tutorial
 
-* ([Japanese version](https://github.com/nsnmsak/graphillion_tutorial) is available.)
+* [Japanese version](https://github.com/nsnmsak/graphillion_tutorial) is available.
 * English version is WIP.
 
 This is a tutorial of the graph set processing library [Graphillion](https://github.com/takemaru/graphillion/wiki). Through this tutorial, you can learn the basics of graph set processing using Graphillion.
