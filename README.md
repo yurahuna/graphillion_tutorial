@@ -1,23 +1,28 @@
 # graphillion_tutorial
 
-グラフ集合処理ライブラリ[Graphillion](https://github.com/takemaru/graphillion/wiki) のチュートリアルです．本チュートリアルを通じて，Graphillionを用いたグラフ集合処理の基本を学ぶことができます．
+([Japanese version](https://github.com/yurahuna/graphillion_tutorial) is available.)
 
-チュートリアル中のコードはすべて[Google Colaboratory](https://colab.research.google.com/)上で動かすことができます．Google Colaboratoryを利用するためにはGoogleアカウントが必要です．
+This is a tutorial of the graph set processing library [Graphillion](https://github.com/takemaru/graphillion/wiki). Through this tutorial, you can learn the basics of graph set processing using Graphillion.
 
-## 目次
-以下のリンクから各コンテンツをGoogle Colaboratoryで開くことができます．
+All the code in the tutorial can be run on [Google Colaboratory](https://colab.research.google.com/). Google account is required to use Google Colaboratory.
 
-1. [はじめに](https://colab.research.google.com/github/nsnmsak/graphillion_tutorial/blob/master/ja/01_introduction.ipynb)
-2. [グラフ入門](https://colab.research.google.com/github/nsnmsak/graphillion_tutorial/blob/master/ja/02_graph_theory.ipynb):  本チュートリアルを理解するために必要となるグラフ理論の基礎について説明します．グラフとは何か，なぜグラフ理論が有益なのかを簡単に説明します．既にグラフ理論に習熟されている方は次章に進んでください．
+## Table of Contents
+You can open each content in Google Colaboratory from the following links.
 
-3. [グラフと組合せ爆発](https://colab.research.google.com/github/nsnmsak/graphillion_tutorial/blob/master/ja/03_graph_and_combinatorial_explosion.ipynb): グラフの問題を解く際，しばしば指数的に存在する部分グラフを扱わなければならない場面がでてきます．この章ではそのような組合せ爆発について解説します．
+1.[Introduction](https://colab.research.google.com/github/yurahuna/graphillion_tutorial/blob/master/ja/01_introduction.ipynb)
 
-4. [Graphillionに触れてみよう](https://colab.research.google.com/github/nsnmsak/graphillion_tutorial/blob/master/ja/04_graphillion_first_step.ipynb): いよいよGraphillionの説明に入ります．有名な「数え上げお姉さん問題」を題材に，Graphillionを用いたグラフ集合処理の例を紹介します．
+2.[Introduction to Graphs](https://colab.research.google.com/github/yurahuna/graphillion_tutorial/blob/master/ja/02_graph_theory.ipynb): This tutorial provides an introduction to the fundamentals of graph theory This section provides the basics of graph theory necessary to understand this tutorial. A brief explanation of what graphs are and why graph theory is useful. If you are already familiar with graph theory, please continue to the next chapter.
 
-5. [Graphillionの内部](https://colab.research.google.com/github/nsnmsak/graphillion_tutorial/blob/master/ja/05_graphillion_and_zdd.ipynb): Graphillionの内部ではZDDとよばれるデータ構造が利用されています．GraphillionはZDDを意識せずとも利用することができますが，Graphillionの挙動を理解するためにはZDDの理解が不可欠です．この章ではGraphillionにおいてZDDが果たす役割について説明します．
+3.[Graphs and combinatorial explosion](https://colab.research.google.com/github/yurahuna/graphillion_tutorial/blob/master/ja/03_graph_and_combinatorial_ explosion.ipynb): When solving graph problems, one often has to deal with subgraphs that exist exponentially. This chapter describes such combinatorial explosion.
 
-6. [GraphSet](https://colab.research.google.com/github/nsnmsak/graphillion_tutorial/blob/master/ja/06_graph_set.ipynb): Graphillionではグラフの集合を表すGraphSetとよばれるオブジェクトを作成し，様々な操作を実行することができます．この章ではGraphSetに対して行える代表的な操作を紹介します．
+4.[Let's touch Graphillion](https://colab.research.google.com/github/yurahuna/graphillion_tutorial/blob/master/ja/04_graphillion_first_ step.ipynb): This is the time to explain Graphillion. Using the famous "Counting Sisters Problem," we will show an example of graph set processing using Graphillion.
 
-7. [Graphillionによる最適化](https://colab.research.google.com/github/nsnmsak/graphillion_tutorial/blob/master/ja/07_answering_path_query.ipynb): Graphillionを用いることで，グラフに関する最適化問題を解くことができます．この章ではGraphillionを用いて最適化問題を解く方法と，Graphillionが得意とする最適化問題の種類について説明します．
-8. [ネットワーク信頼性の計算](https://colab.research.google.com/github/nsnmsak/graphillion_tutorial/blob/master/ja/08_network_reliability.ipynb): Graphillionの機能を活用することで，ネットワークの故障に対する強さを調べることができます．
-9. [Graphillion 実践ガイド](https://colab.research.google.com/github/nsnmsak/graphillion_tutorial/blob/master/ja/09_practical_guide.ipynb) Graphillionで効率的に問題を解くための指針をいくつか紹介します．
+5.[Inside Graphillion](https://colab.research.google.com/github/yurahuna/graphillion_tutorial/blob/master/ja/05_graphillion_and_zdd. ipynb): Graphillion uses a data structure called ZDDs, and although Graphillion can be used without being aware of ZDDs, understanding ZDDs is essential to understanding Graphillion's behavior. This chapter explains the role of ZDDs in Graphillion. 6.
+
+6.[GraphSet](https://colab.research.google.com/github/yurahuna/graphillion_tutorial/blob/master/ja/06_graph_set.ipynb): In Graphillion can create an object called GraphSet, which represents a set of graphs, and perform various operations on it. This chapter introduces typical operations on GraphSets.
+
+7.[Optimization with Graphillion](https://colab.research.google.com/github/yurahuna/graphillion_tutorial/blob/master/ja/07_answering_path_query.ipynb): Graphillion can be used to solve optimization problems related to graphs. This chapter explains how to solve optimization problems using Graphillion and the types of optimization problems in which Graphillion excels.
+
+8.[Computing Network Reliability](https://colab.research.google.com/github/yurahuna/graphillion_tutorial/blob/master/ja/08_network_reliability.ipynb ): Utilizing Graphillion's functionality, you will be able to determine the network's resilience to failure.
+
+9.[Graphillion Practical Guide](https://colab.research.google.com/github/yurahuna/graphillion_tutorial/blob/master/ja/09_practical_guide.ipynb ) Some guidelines for solving problems efficiently with Graphillion.
